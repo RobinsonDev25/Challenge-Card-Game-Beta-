@@ -1,0 +1,26 @@
+<ion-content [fullscreen]="true">
+  <div class="boton-confi">
+    <ion-button fill="clear" shape="round" routerLink="/config">
+      <ion-icon name="settings-outline" style="font-size: 40px;"></ion-icon>
+    </ion-button>
+  </div>
+
+  <div class="avatar">
+    <ion-avatar aria-hidden="true">
+      <img alt="" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+      <h1>Username</h1>
+    </ion-avatar>
+  </div>
+
+  <div class="botones-inferiores">
+    <ion-button routerLink="/unirse">
+      <ion-icon slot="start" name="arrow-forward-outline"></ion-icon>
+      Unirse
+    </ion-button>
+    <ion-button routerLink="/crear">
+      <ion-icon slot="start" name="add-circle-outline"></ion-icon>
+      Crear
+    </ion-button>
+  </div>
+
+</ion-content>
